@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hacia Un Mañana Sostenible</title>
+  <style type="text/css">
+    #quienesSomos {display: block;}
+    #quienesSomos h2 {text-align: center; margin: 20px; font-family: 'Montserrat', sans-serif; font-optical-sizing: auto;
+                      font-weight: 800; font-style: normal;}
+    #quienesSomos div {margin: 12px; text-align: center; justify-content: space-between;}
+    #quienesSomos h3 {text-align: center; margin: 20px; font-family: "Montserrat", sans-serif; font-optical-sizing: auto;
+                      font-weight: 600; font-style: normal; }
+    #quienesSomos p {text-align: center; color: rgb(123, 113, 100); font-family: "Montserrat", sans-serif; 
+                    font-optical-sizing: auto; font-weight: 400; font-style: normal;}
+
+    .form {display: inline-block; padding: 0px; margin: 0px;}
+    .form label {color: #554f4f; font-size: 12px; font-style: italic; font-weight: bold;}
+    .form input {color: #12f298; background-color: #ffffff; font-size: 12px;
+                border: 1px solid #2f2c2c; border-radius: 5px;}
+    .form input::placeholder {color: #ccc; font-style: italic;}
+    .form button {border-radius: 5px; border: 1px solid #2f2c2c; background-color: #a8aeaf; font-size: 12px}
+  </style>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style_eventos_externo.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bad+Script&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div id="inicio">
+      <img  class="logo" src="assets/bluePeace.png" alt="Logo de la organización" width="35" height="35">
+      <h1 class="tituloPrincipal ">Hacia un Mañana Sostenible</h1> 
+    </div>
+    <div id="navegacion">
+      <nav>
+        <ul>
+          <li><a href="#informacion">Acerca de Nosotros</a></li>
+          <li><a href="#actividades">Actividades</a></li>
+          <li><a href="#eventos">Eventos</a></li>
+          <li><a href="#temas_interes">Temas de Interés</a></li>
+          <li><a href="https://es.wikipedia.org/wiki/Impacto_ambiental" target="_blank">Impacto Ambiental</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div id="acceso">
+      <h2 id="titleSesion">Iniciar Sesión</h2>
+      <a id="registro" href="registrousuario.html">Registrese Aquí</a><br>
+      <form class="form"action="./assets/registro.txt" method="post" method="post" name="iniciosesion" 
+            autocomplete="off" novalidate>
+        <label for="usuario">Usuario:</label>
+        <input type="text" id="usuario" name="usuario" placeholder="nombre de usuario">
+        <label for="contrasena">Contraseña:</label>
+        <input type="password" id="contrasena" name="contrasena" placeholder="contraseña de 8 digitos">
+        <button type="submit">Entrar</button>
+      </form>
+    </div>
+  </header>
+  <hr>
+  <main>
+    <section id="quienesSomos">
+      <h2>Acerca de Nosotros</h2>
+      <div>
+        <h3>Denominación Legal</h3>
+        <p >
+          Fundación SFDL Hacia un Mañana Sostenible
+        </p>
+      </div>
+      <div>
+        <div>
+          <h3>Nuestra Misión</h3>
+          <p>
+            Para garantizar un futuro sostenible para las generaciones presentes y futuras, <br>
+            se debe promover la conservación y protección del medio ambiente a través de la educación, <br>
+            la investigación y la acción directa.
+          </p>
+        </div>
+        <div>
+          <h3>Visión</h3>
+          <p>
+            Ser una sociedad en la que la humanidad y la naturaleza convivan en armonía, <br>
+            en la que los recursos naturales se manejen de manera sostenible y en la que las <br>
+            generaciones venideras hereden un mundo saludable y resistente.
+          </p>
+        </div>
+      </div>
+    </section>
+    <hr>
+    <section id="actividades">
+      <h2>Actividades que Realizamos con la Comunidad</h2>
+      <div>
+        <ul>
+          <li>
+            <h3>Educación Ambiental</h3>
+            <p>Enseñar a las personas sobre la importancia de la conservación <br>
+                  del medio ambiente a través de talleres, <br>
+                  charlas y programas educativos. Esto fomenta la acción individual <br>
+                  y colectiva y aumenta la conciencia sobre los problemas ambientales.<br>
+            </p>
+            <img src="assets/edu-ambiental-850x400.png" alt="educación ambiental" height="200px" width="425px">
+          </li>
+          <li>
+            <h3>Limpieza de Playa</h3>
+            <p>Recolectar basura y desechos en las playas. Esto promueve la conciencia <br>
+              sobre la contaminación, <br>
+              mejora la calidad del agua y protege la vida marina.<br>
+            </p>
+            <img src="assets/lp.png" alt="limpieza playa" height="200px" width="425px">
+          </li>
+          <li>
+            <h3>  Reforestación</h3>
+            <p>Plantación de árboles en áreas que han sido deforestadas o degradadas. <br>
+              Esto ayuda a restaurar el ecosistema, combatir el cambio climático, mejorar <br>
+              la calidad del aire y del agua.<br>
+            </p>
+            <img src="assets/6.png" alt="reforestacion" height="160px" width="200px"><br>
+          </li>
+        </ul>
+      </div>    
+    </section>
+  <hr>
+    <section id="eventos">
+      <h2>Próximos Eventos</h2>
+      <div>
+        <table>
+          <tr>
+            <th>Evento</th>
+            <th>Lugar</th>
+            <th>Fecha</th>
+            <th>Hora</th>
+            <th>Descripción</th>
+            <th>Objetivo</th>
+          </tr>
+          <tr>
+            <td>Conferencia sobre cambio climático</td>
+            <td>Universidad de Chile, Santiago, Chile</td>
+            <td>10 de abril de 2024</td>
+            <td>10:00 pm a 12:00 pm</td>
+            <td>Conferencia a cargo de un experto en cambio climático sobre las causas, <br>
+              consecuencias y posibles soluciones al problema del cambio climático. <br></td>
+            <td>Informar y concienciar a la población sobre la importancia de abordar el cambio climático. <br></td>
+          </tr>
+          <tr>
+            <td>Taller de Compostaje</td>
+            <td>Centro Cultural, Santiago, Chile</td>
+            <td>10 de abril de 2024</td>
+            <td>14:00 pm a 17:00 pm</td>
+            <td>Curso teórico-práctico de compostaje en casa. Se hablará de los beneficios del compostaje, <br>
+              de cómo se compostan varios tipos de materiales orgánicos y de cómo se puede usar el compost en el jardín. <br></td>
+            <td>Fomentar el compostaje como una forma de reducir los desechos y proteger el medio ambiente. <br></td>
+          </tr>
+          <tr>
+            <td>Jornada de limpieza de playas</td>
+            <td>Playa Las Torpederas, Valparaíso, Chile</td>
+            <td>15 de abril de 2024</td>
+            <td>10:00 pm a 16:00 pm</td>
+            <td>Se convoca a voluntarios para limpiar la playa Las Torpederas. <br>
+                Se proporcionarán guantes y bolsas de basura.</td>
+            <td>Retirar la basura y los residuos de la playa para proteger <br>
+                el medio ambiente marino.</td>
+          </tr>
+        </table>
+    </section>
+    <hr>
+    <section class="temas_interes">
+      <h2 class="title2">Temas de Interés</h2>
+      <div class="container2">
+        <img src="assets/cambio.jpg" alt="cambio-climatico" width="1349" height="400"><br>
+        <audio controls>
+          <source src="assets/Grabación.wav" type="audio/mpeg">
+        </audio><br>
+      </div>
+      <div class="container2">
+        <img class="ti" src="assets/eolica.jpg" alt="energia-eolica" width="300" height="150">
+        <img class="ti" src="assets/solar.jpg" alt="energia-solar" width="300" height="150">
+        <img class="ti" src="assets/biogas.jpg" alt="energia-solar" width="300" height="150"><br>
+      </div>
+    </section>
+    <hr>
+    <section class="videos">
+      <h2 class="title2">Videos Relacionados</h2>
+      <div>
+        <iframe width="681" 
+              height="383" 
+              src="https://www.youtube.com/embed/2HYx8aItmXc" 
+              title="Cómo contrarrestar la crisis climática | DW Documental" 
+              allow="clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin">
+        </iframe>
+      </div>
+    </section> 
+  </main>
+  <hr>
+  <footer>
+    <div>
+      <p>
+        &copy; 2024 - Hacia un Mañana Sostenible
+      </p>
+    </div> 
+  </section>
+</body>
+</html>

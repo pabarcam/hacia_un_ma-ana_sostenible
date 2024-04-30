@@ -1,0 +1,44 @@
+#actividades {
+    display: block;
+}
+#actividades ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px; 
+}
+#actividades li {
+    border: 1px solid #000;
+    margin: 10px;
+    padding: 0px;
+}
+#actividades p {
+    text-align: center;
+    color: rgb(123, 113, 100);
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+#actividades h2 {
+    text-align: center;
+    margin: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+#actividades h3 {
+    text-align: center;
+    margin: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal; 
+}
+#actividades img {
+    margin: 10px;
+    padding: 0px;
+    align-items: center ;
+}

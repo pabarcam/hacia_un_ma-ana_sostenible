@@ -1,0 +1,21 @@
+#eventos h2{
+    text-align: center;
+    margin: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+#eventos div {
+    margin: 12px;
+}
+#eventos table{
+    border: 2px solid #ccc;
+    border-collapse: collapse; 
+}
+#eventos tr{
+    border: 1px solid #ddd;
+}
+#eventos th{
+    border: 1px solid #ddd;
+}
